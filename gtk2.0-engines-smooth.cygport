@@ -1,0 +1,13 @@
+NAME="gtk2.0-engines-smooth"
+VERSION=2.14.3+deb5
+RELEASE=1
+CATEGORY="X11"
+SUMMARY="A GTK+2 theme engine"
+DESCRIPTION="Smooth is a highly configurable theme engine for GTK+ 2.x.
+Several popular themes are based on it, redefining the way GTK+ widgets are
+drawn."
+HOMEPAGE="https://packages.debian.org/squeeze/gtk2-engines-smooth"
+SRC_URI="mirror://debian/pool/main/g/gtk-smooth-engine/gtk-smooth-engine_${VERSION}.tar.gz"
+SRC_DIR="gtk-smooth-engine-${VERSION}"
+
+DISTCLEANFILES="aclocal.m4"
